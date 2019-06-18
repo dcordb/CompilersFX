@@ -1,0 +1,12 @@
+a b c d e f
+Terminal NonTerminal ListTerms ListNonTerms ProdRule ListProdRules G I
+8
+I -> G
+G -> ListTerms ListNonTerms ListProdRules
+ListTerms -> Terminal ListTerms
+ListNonTerms -> NonTerminal ListNonTerms
+ListProdRules -> ProdRule ListProdRules
+Terminal -> a b c
+NonTerminal -> d e f
+ProdRule -> NonTerminal ListProdRules
+a b d d a b c

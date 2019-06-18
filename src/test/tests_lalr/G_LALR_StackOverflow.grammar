@@ -1,0 +1,11 @@
+x y z
+A B C I
+7
+I -> A
+A -> C x A
+A -> ~
+B -> x C y
+B -> x C
+C -> x B x
+C -> z
+x x z x x

@@ -1,0 +1,16 @@
+El $ no debe ser parte de la expresion a analizar
+Los simbolos $ (fin de palabra) y ~ (epsilon) siempre son terminales, NO hay que ponerlos explicitamente.
+
+OJO: Para usar LALR o CLR la gramatica debe ser aumentada
+
+asegurar q lo q le pase al parser sea gramatica aumentada y q sea la 1ra regla de prod
+
+Change List <> to Sets
+
+Fix:
+Remove General Left Recursion:
+Files:
+G_EPS_2.grammar
+G_TestLR_6.grammar
+G_EPS_5.grammar
+G_parenthesis.grammar (CLR)

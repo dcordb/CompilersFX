@@ -1,0 +1,10 @@
+a b c t i
+I S E Z
+6
+I -> S
+S -> i E t S Z
+S -> a
+Z -> c S
+Z -> ~
+E -> b
+i b t a

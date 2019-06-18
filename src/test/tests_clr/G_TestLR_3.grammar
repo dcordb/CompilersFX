@@ -1,0 +1,11 @@
+* = i
+I A S L R
+7
+I -> A
+A -> S
+S -> L = R
+S -> R
+L -> * R
+L -> i
+R -> L
+i = i

@@ -1,0 +1,13 @@
++ * ( ) i
+I E T G F H
+9
+I -> E
+E -> T G
+G -> + T G
+G -> ~
+T -> F H
+H -> * F H
+H -> ~
+F -> ( E )
+F -> i
+i + ( i * i ) * i

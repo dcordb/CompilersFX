@@ -1,0 +1,9 @@
+a b
+E X Y S
+5
+S -> E
+E -> X
+E -> a X Y
+X -> ~
+Y -> b E a
+b a b

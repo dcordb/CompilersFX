@@ -1,0 +1,9 @@
+a b
+S I
+5
+S -> a S a
+S -> b S b
+S -> a
+S -> b
+S -> ~
+a a b b a a

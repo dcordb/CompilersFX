@@ -1,0 +1,9 @@
+a b
+S M A
+5
+S -> A M
+A -> a A
+A -> a
+M -> a M b
+M -> ~
+a a a a b b

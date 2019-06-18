@@ -1,0 +1,12 @@
++ * ( ) id
+E E' T T' F
+8
+E -> T E'
+E' -> + T E'
+E' -> ~
+T -> F T'
+T' -> * F T'
+T' -> ~
+F -> ( E )
+F -> id
+id + id * id

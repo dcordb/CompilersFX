@@ -1,0 +1,12 @@
+* ( ) + i
+I A E T F
+8
+I -> A
+A -> E
+E -> E + T
+E -> T
+T -> T * F
+T -> F
+F -> ( E )
+F -> i
+i + ( i * i ) * i

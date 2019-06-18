@@ -1,0 +1,10 @@
+x y
+I A B C D
+6
+I -> A
+A -> B
+B -> C D
+C -> x
+C -> ~
+D -> y
+y

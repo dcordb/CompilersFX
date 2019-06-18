@@ -1,0 +1,14 @@
+5
+E E' T T' F
+5
+* + ( ) id
+8
+3 E T E'
+4 E' + T E'
+2 E' ~
+3 T F T'
+4 T' * F T'
+2 T' ~
+4 F ( E )
+2 F id
+E

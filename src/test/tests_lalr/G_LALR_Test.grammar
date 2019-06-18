@@ -1,0 +1,8 @@
+c d
+S' S C
+4
+S' -> S
+S -> C C
+C -> c C
+C -> d
+d c c d
