@@ -260,11 +260,13 @@ public class Controller {
     public void menuHowToUseGrammar() {
         InfoBox.display("Grammar View Help", "This part of the app handles grammar operations. The format to enter the grammar is the following:\n" +
                 "a non terminal must start with a uppercase letter, else is a terminal, you should not add epsilon or dollar sign as terminals\n" +
-                "they are added by default! Each production rule should be on a separate line.");
+                "they are added by default! Each production rule should be on a separate line. Every token should be space separated! Epsilon is ~ and dollar" +
+                "sign is $");
     }
 
     public void menuHowToUseParsers() {
-        InfoBox.display("Parser View Help", "This is the parser view, this part will analyse a given word and output the tables of the applied parser.");
+        InfoBox.display("Parser View Help", "This is the parser view, this part will analyse a given word and output the tables of the applied parser." +
+                "Each token of the word should be space separated, for example, if you want to analyse aba then you should enter: a b a");
     }
 
     public void handleAddGrammar() {
