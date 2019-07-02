@@ -14,3 +14,5 @@ G_EPS_2.grammar
 G_TestLR_6.grammar
 G_EPS_5.grammar
 G_parenthesis.grammar (CLR)
+
+Check code in Parser setG, need to clone grammar!
