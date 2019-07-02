@@ -15,7 +15,7 @@ public abstract class Parser {
     }
 
     public void setG(GLC g) {
-        G = new GLC(g.getNterminals(), g.getTerminals(), g.getPrules(), g.getStart());
+        G = g.deepCopy();
 
         List<Symbol> right = new LinkedList<>();
         right.add(G.getStart());

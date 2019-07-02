@@ -36,6 +36,19 @@ public class GLC {
     private HashMap <Symbol, Set <Terminal> > memoFirst;
     private HashMap <Symbol, Set <Terminal> > memoFollow;
 
+    public GLC deepCopy() {
+        List <NonTerminal> nt = new ArrayList<>();
+        List <Terminal> t = new ArrayList<>();
+        List <ProductionRule> pr = new ArrayList<>();
+        NonTerminal ini = new NonTerminal(start.getId());
+
+        nt.addAll(nterminals);
+        t.addAll(terminals);
+        pr.addAll(prules);
+
+        return new GLC(nt, t, pr, ini);
+    }
+
     /*
         loads a grammar given inputTerminals, inputNonTerminals and inputProductionRules
 
