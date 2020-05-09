@@ -318,6 +318,7 @@ public class GLC {
         return false;
     }
 
+    //THIS HAS A BUG, if grammar is cyclic can cycle for ever! ... Palmface :(
     public Set <Terminal> getFirst(Symbol s) {
         if(!exists(s))
             throw new RuntimeException("Symbol " + s + " doesn't exist!");

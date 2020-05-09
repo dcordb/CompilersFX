@@ -6,7 +6,7 @@ import java.util.*;
 
 public class TestFirstFollow {
     public static void main(String[] args) {
-        FastScanner in = new FastScanner("src/test/basic_tests/G_FirstFollow.grammar");
+        FastScanner in = new FastScanner("src/test/basic_tests/G_Cyclic.grammar");
 
         List <NonTerminal> nterm = new ArrayList <> ();
         List <Terminal> term = new ArrayList<>();
